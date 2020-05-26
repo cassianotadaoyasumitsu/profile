@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@100;400;700&display=swap');
+
+body {
+  background-color: #F4F4F4;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #B2B6BB;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #CDD5DC;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #E0E0E0;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.box-white {
+  background-color: white;
+  padding: 24px;
+  margin: 16px;
+  border-radius: 4px;
+  width: 600;
+  margin: 24px auto;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.btn-green {
+  background-color: #30E3CA;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.btn-green:hover {
+  background-color: #30E3CA;
+  color: pink;
+}
+
+.list-inline {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: #E0E0E0;
+  margin: 8px 24px;
+}
+
+.social-icon:hover {
+  color: #B2B6BB;
+}
+
+
+
+
+
+
+
