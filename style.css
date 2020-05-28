@@ -2,6 +2,9 @@
 
 body {
   background-color: #F4F4F4;
+  background-image: url('images/chocolate3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -16,7 +19,7 @@ h2 {
 
 p {
   font-family: 'Open Sans', sans-serif;
-  color: #E0E0E0;
+  color: #CDD5DC;
 }
 
 a {
@@ -34,8 +37,36 @@ ul {
   border-radius: 50%;
 }
 
+.games-img {
+  width: 600px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.kids-img {
+  width: 338px;
+  height: 251px;
+  border-radius: 4px;
+}
+
+.secret-img {
+  border-radius: 4px;
+}
+
 .card {
   background-color: white;
+  padding: 24px;
+  margin: 16px;
+  border-radius: 4px;
+  width: 600;
+  margin: 24px auto;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border: 1px solid lightgrey;
+}
+
+.games {
+background-color: white;
   padding: 24px;
   margin: 16px;
   border-radius: 4px;
